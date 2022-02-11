@@ -9,13 +9,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var loginButton: UIButton!
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var phoneTextField: UITextField!
     @IBOutlet weak var logoImageView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        loginButton.layer.cornerRadius = 10
+        loginButton.layer.borderWidth = 1
+        loginButton.clipsToBounds = true
         phoneTextField.setLeftPaddingPoints(30)
         phoneTextField.setBottomBorder()
         logoImageView.makeRounded()

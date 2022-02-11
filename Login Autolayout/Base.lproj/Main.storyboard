@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,48 +13,48 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Login_Autolayout" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Jpl-Rr-Bce">
-                                <rect key="frame" x="0.0" y="44" width="390" height="800"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yvT-yW-xTl">
-                                        <rect key="frame" x="0.0" y="0.0" width="390" height="266.66666666666669"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="284"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eschool-logo" translatesAutoresizingMaskIntoConstraints="NO" id="zdp-gJ-IzY">
-                                                <rect key="frame" x="135" y="73.333333333333314" width="120" height="120"/>
+                                                <rect key="frame" x="164.66666666666666" y="99.666666666666657" width="85" height="85"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="120" id="cCU-8T-mfw"/>
-                                                    <constraint firstAttribute="width" constant="120" id="mFI-Sv-HIm"/>
+                                                    <constraint firstAttribute="height" constant="85" id="3qQ-Y4-1Yl"/>
+                                                    <constraint firstAttribute="width" constant="85" id="FVe-jW-upu"/>
                                                 </constraints>
                                             </imageView>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstItem="zdp-gJ-IzY" firstAttribute="centerX" secondItem="yvT-yW-xTl" secondAttribute="centerX" id="Ej2-hc-WiH"/>
-                                            <constraint firstItem="zdp-gJ-IzY" firstAttribute="centerY" secondItem="yvT-yW-xTl" secondAttribute="centerY" id="cDc-J7-8iA"/>
+                                            <constraint firstItem="zdp-gJ-IzY" firstAttribute="centerY" secondItem="yvT-yW-xTl" secondAttribute="centerY" id="R1j-CE-niA"/>
+                                            <constraint firstItem="zdp-gJ-IzY" firstAttribute="centerX" secondItem="yvT-yW-xTl" secondAttribute="centerX" id="WB3-3S-Ovi"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zaa-v5-JC3">
-                                        <rect key="frame" x="0.0" y="266.66666666666663" width="390" height="266.66666666666663"/>
+                                        <rect key="frame" x="0.0" y="284" width="414" height="284"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="cgO-tc-mqh">
-                                                <rect key="frame" x="30" y="68.333333333333314" width="330" height="130"/>
+                                                <rect key="frame" x="30" y="77" width="354" height="130"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zUh-Tf-x63">
-                                                        <rect key="frame" x="0.0" y="0.0" width="330" height="50"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="354" height="50"/>
                                                         <subviews>
                                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5Tm-kQ-3jq">
-                                                                <rect key="frame" x="0.0" y="0.0" width="330" height="50"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="354" height="50"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="50" id="gFp-qx-L2J"/>
                                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="pQy-I5-QKB"/>
                                                                 </constraints>
-                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                                <textInputTraits key="textInputTraits"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                                             </textField>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Login-Phone" translatesAutoresizingMaskIntoConstraints="NO" id="AHD-n4-hYX">
-                                                                <rect key="frame" x="1" y="4" width="28" height="43"/>
+                                                                <rect key="frame" x="3" y="16" width="12" height="18"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             </imageView>
                                                         </subviews>
@@ -68,18 +68,18 @@
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eyQ-aw-ivP">
-                                                        <rect key="frame" x="0.0" y="80" width="330" height="50"/>
+                                                        <rect key="frame" x="0.0" y="80" width="354" height="50"/>
                                                         <subviews>
                                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lf8-Bs-rQd">
-                                                                <rect key="frame" x="0.0" y="0.0" width="330" height="50"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="354" height="50"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="50" id="Gp7-xQ-bgx"/>
                                                                 </constraints>
-                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                                <textInputTraits key="textInputTraits"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                                             </textField>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Password" translatesAutoresizingMaskIntoConstraints="NO" id="lDm-ft-ny7">
-                                                                <rect key="frame" x="1" y="5" width="28" height="43"/>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Password" translatesAutoresizingMaskIntoConstraints="NO" id="XgE-Mo-kBH">
+                                                                <rect key="frame" x="3" y="16" width="12" height="18"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             </imageView>
                                                         </subviews>
@@ -109,10 +109,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ziu-La-cnR">
-                                        <rect key="frame" x="0.0" y="533.33333333333337" width="390" height="266.66666666666663"/>
+                                        <rect key="frame" x="0.0" y="568" width="414" height="284"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qud-Ub-DIE">
-                                                <rect key="frame" x="30" y="27" width="330" height="50"/>
+                                                <rect key="frame" x="30" y="27" width="354" height="50"/>
                                                 <color key="backgroundColor" red="0.12902218100000001" green="0.3071311712" blue="0.43923261759999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="dEz-2E-s2Y"/>
@@ -146,6 +146,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="loginButton" destination="qud-Ub-DIE" id="zcq-qZ-fHq"/>
                         <outlet property="logoImageView" destination="zdp-gJ-IzY" id="D4E-R1-GGj"/>
                         <outlet property="passwordTextField" destination="lf8-Bs-rQd" id="8As-Em-Gh6"/>
                         <outlet property="phoneTextField" destination="5Tm-kQ-3jq" id="VQc-QU-ZIG"/>
